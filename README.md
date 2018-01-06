@@ -1,1 +1,3 @@
-# maze_algorithm
+# Maze Algorithm
+
+A project for my second year of Computer Science Algorithm and Analysis. The project is to implement maze generation and solver algorithm. The maze generation include 3 algorithm, [Kruskal's Algorithm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm), [Prim's Algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm), and [Recursive Backtracking Algorithm](https://en.wikipedia.org/wiki/Backtracking). The maze solver algorithm include 2 algorithm, [Recursive Backtracking Algorithm](https://en.wikipedia.org/wiki/Backtracking) and [Bidirectional Breadth-First-Search Algorithm](https://en.wikipedia.org/wiki/Bidirectional_search).
