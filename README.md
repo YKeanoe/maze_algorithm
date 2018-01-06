@@ -32,7 +32,7 @@ Example:
 > 25 25 0 25  
 > ...
 
-Run the MazeSolver.java with command line:
+Run the MazeSolver.java with argument line:
 > <example.txt location> <y/n maze visualization>
 
 Example:
