@@ -39,3 +39,7 @@ Example:
 > src/example.txt y
 
 ### Showcase
+
+***Tunnel Maze Generation***
+![tunnel](https://github.com/ZankiMaru/maze_algorithm/tree/master/showcase/tunnel-maze-seq.gif)
+
