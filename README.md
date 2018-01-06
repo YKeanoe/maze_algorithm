@@ -41,5 +41,4 @@ Example:
 ### Showcase
 
 ***Tunnel Maze Generation***
-![tunnel](https://github.com/ZankiMaru/maze_algorithm/tree/master/showcase/tunnel-maze-seq.gif)
-
+![tunnel](https://github.com/ZankiMaru/maze_algorithm/blob/master/showcase/tunnel-maze-seq.gif)
