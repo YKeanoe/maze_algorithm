@@ -18,7 +18,7 @@ The maze solver algorithm include 2 algorithm,
 
 ### Usage
 Update the example.txt in src folder first line into: 
->(normal|tunnel|hex) (modiPrim|kruskal|recurBack) (map height) (map width) (start row) (start column) (finish row) (finish column)
+>(normal|tunnel|hex) (modiPrim|kruskal|recurBack) (recurBack|biDir) (map height) (map width) (start row) (start column) (finish row) (finish column)
 
 Example:
 > hex kruskal recurBack 50 50 0 0 49 49
@@ -39,6 +39,28 @@ Example:
 > src/example.txt y
 
 ### Showcase
+***Normal Maze***  
+![normal](https://github.com/ZankiMaru/maze_algorithm/blob/master/showcase/normal-maze.png)
 
-***Tunnel Maze Generation***  
+***Hexagon Maze***  
+![hex](https://github.com/ZankiMaru/maze_algorithm/blob/master/showcase/hex-maze.png)
+
+***Tunnel Maze***  
 ![tunnel](https://github.com/ZankiMaru/maze_algorithm/blob/master/showcase/tunnel-maze.png)
+
+***Kruskal's Maze Generation Algorithm***  
+![kruskal](https://github.com/ZankiMaru/maze_algorithm/blob/master/showcase/kruskal-maze.png)
+
+***Prim's Maze Generation Algorithm***  
+![prim](https://github.com/ZankiMaru/maze_algorithm/blob/master/showcase/modiprim-maze.png)
+
+***Recursive Backtracking Maze Generation Algorithm***  
+![recur](https://github.com/ZankiMaru/maze_algorithm/blob/master/showcase/recurback-maze.png)
+
+***Recursive Backtracking Maze Solver Algorithm***  
+![recur](https://github.com/ZankiMaru/maze_algorithm/blob/master/showcase/recur-solve.gif)
+
+***Bidirectional Breadth-First-Search Maze Solver Algorithm***  
+![bidir](https://github.com/ZankiMaru/maze_algorithm/blob/master/showcase/bidir-solve.gif)
+
+
