@@ -16,28 +16,6 @@ The maze solver algorithm include 2 algorithm,
 * [Recursive Backtracking Algorithm](https://en.wikipedia.org/wiki/Backtracking) 
 * [Bidirectional Breadth-First-Search Algorithm](https://en.wikipedia.org/wiki/Bidirectional_search).
 
-### Usage
-Update the example.txt in src folder first line into: 
->(normal|tunnel|hex) (modiPrim|kruskal|recurBack) (recurBack|biDir) (map height) (map width) (start row) (start column) (finish row) (finish column)
-
-Example:
-> hex kruskal recurBack 50 50 0 0 49 49
-
-For tunnel type map, add new line for each tunnel into:  
-> (start row) (start column) (finish row) (finish column)
-
-Example:
-> tunnel kruskal recurBack 50 50 0 0 49 49  
-> 10 10 42 44  
-> 25 25 0 25  
-> ...
-
-Run the MazeSolver.java with argument line:
-> <example.txt location> <y/n maze visualization>
-
-Example:
-> src/example.txt y
-
 ### Showcase
 ***Normal Maze***  
 ![normal](https://github.com/ZankiMaru/maze_algorithm/blob/master/showcase/normal-maze.png)
@@ -62,5 +40,36 @@ Example:
 
 ***Bidirectional Breadth-First-Search Maze Solver Algorithm***  
 ![bidir](https://github.com/ZankiMaru/maze_algorithm/blob/master/showcase/bidir-solve.gif)
+
+### Built With
+* [Eclipse](https://www.eclipse.org/) - Framework and IDE used.
+* [Java](https://java.com/en/) - Language used.
+
+### Usage
+Update the example.txt in src folder first line into: 
+>(normal|tunnel|hex) (modiPrim|kruskal|recurBack) (recurBack|biDir) (map height) (map width) (start row) (start column) (finish row) (finish column)
+
+Example:
+> hex kruskal recurBack 50 50 0 0 49 49
+
+For tunnel type map, add new line for each tunnel into:  
+> (start row) (start column) (finish row) (finish column)
+
+Example:
+> tunnel kruskal recurBack 50 50 0 0 49 49  
+> 10 10 42 44  
+> 25 25 0 25  
+> ...
+
+Run the MazeSolver.java with argument line:
+> <example.txt location> <y/n maze visualization>
+
+Example:
+> src/example.txt y
+
+### Authors
+* Youhan Xia - Lecturer and Skeleton code provider
+* Jeffrey Chan - Lecturer and Skeleton code provider
+* Yohanes Keanoe - Implement Algorithm
 
 
