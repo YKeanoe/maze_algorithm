@@ -40,5 +40,5 @@ Example:
 
 ### Showcase
 
-***Tunnel Maze Generation***
-![tunnel](https://github.com/ZankiMaru/maze_algorithm/blob/master/showcase/tunnel-maze-seq.gif)
+***Tunnel Maze Generation***  
+![tunnel](https://github.com/ZankiMaru/maze_algorithm/blob/master/showcase/tunnel-maze.png)
